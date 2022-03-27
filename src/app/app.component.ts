@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root',//indica el tag html
+  templateUrl: './app.component.html',//indica el template de codigo html que conforma el componente
+  //template:'<span>Fernando</span>';
+  styleUrls: ['./app.component.css']//indica la hoja con los estilos del componente
 })
 export class AppComponent {
-  title = 'bases';
+
+  titulo   :string = 'First App';
+
+
 }
